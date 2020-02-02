@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    width: 960px;
+}
+
+.title {
+    color: cadetblue;
+    
+    font-size: 30px;
+    width: 400px;
+    padding: 20px 0;
+    border-bottom: 4px solid cadetblue;
+}
+
+.supcontainer {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    
+    height: 100vh;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url('https://cdn23.img.ria.ru/images/37947/98/379479882_0:0:600:340_600x0_80_0_0_d00d982225fccffbb10dc73a0fc7543e.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.info {
+    margin: 0 50px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 20px 0;
+    display: flex;
+}
+
+.txt_1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+.txt_2 {
+    font-size: 22px;
+}
+
+.supul {
+    display: flex;
+    margin: 10px 0;
+}
+
+.sclils {
+    color: aliceblue;
+    background-color: cadetblue;
+    margin: 0 10px;
+    padding: 3px 10px;
+}
